@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://dhendryc.github.io/sitemap.xml
