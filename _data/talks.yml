@@ -1,4 +1,4 @@
-- title: Conference Presentations & Posters
+- title: Talks & Posters
   type: time_table
   contents:
     - title: "Solving the Optimal Design Problem with Mixed-Integer Convex Methods"
@@ -57,7 +57,7 @@
           link: "/assets/pdf/Boscia_Poster_I.pdf"
 
 
-- title: Conferences & Workshops Attended
+- title: Attended Events
   type: time_table
   contents:
     - title: "Global Optimization Workshop (STOGO) 2025"
@@ -80,7 +80,7 @@
       location: "Berlin, Germany"
       year: "2024"
 
-- title: Invited Talks & Seminars
+- title: Seminar Talks
   type: time_table
   contents:
     - title: "Boscia.jl and the Optimal Experiment Design Problem"
