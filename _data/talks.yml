@@ -1,0 +1,139 @@
+- title: Conference Presentations & Posters
+  type: time_table
+  contents:
+    - title: "Solving the Optimal Design Problem with Mixed-Integer Convex Methods"
+      institution: "STOGO 2025"
+      location: "Stockholm, Sweden"
+      year: "2025"
+      description:
+        - "<strong>Type:</strong> Talk"
+      linkitems:
+        - linkname: "Slides"
+          link: "/assets/pdf/Optimal_Design-STOGO.pdf"
+    - title: "Secant Line Search for Frank-Wolfe Algorithms"
+      institution: "ICML 2025"
+      location: "Vancouver, Canada"
+      year: "2025"
+      description:
+        - "<strong>Type:</strong>  Poster"
+      linkitems:
+        - linkname: "Poster PDF"
+          link: "/assets/pdf/ICML-poster.pdf"
+    - title: "Solving the Optimal Design Problem with Mixed-Integer Convex Methods"
+      institution: "EUROPT 2025"
+      location: "Southampton, UK"
+      year: "2025"
+      description:
+        - "<strong>Type:</strong> Talk"
+      linkitems:
+        - linkname: "Slides"
+          link: "/assets/pdf/EUROPT_presentation.pdf"
+    - title: "Exploiting Combinatorial Algorithms within Convex Mixed-Integer Optimization"
+      institution: "DOML 2025"
+      location: "Kyoto, Japan"
+      year: "2025"
+      description:
+        - "<strong>Type:</strong> Poster"
+      linkitems:
+        - linkname: "Poster PDF"
+          link: "/assets/pdf/DOxML_Poster.pdf"
+    - title: "Solving the Optimal Design Problem with Mixed-Integer Convex Methods"
+      institution: "SEA 2024"
+      location: "Vienna, Austria"
+      year: "2024"
+      description:
+        - "<strong>Type:</strong> Talk"
+      linkitems:
+        - linkname: "Slides"
+          link: "/assets/pdf/SEA_Wien_2024_Talk.pdf"
+    - title: "Convex Solver Adaptivity for Mixed-Integer Optimization"
+      institution: "WIO 2024"
+      location: "Erlangen, Germany"
+      year: "2024"
+      description:
+        - "<strong>Type:</strong> Poster"
+      linkitems:
+        - linkname: "Poster PDF"
+          link: "/assets/pdf/Boscia_Poster_I.pdf"
+
+
+- title: Conferences & Workshops Attended
+  type: time_table
+  contents:
+    - title: "Global Optimization Workshop (STOGO) 2025"
+      institution: "KTH Royal Institute of Technology"
+      location: "Stockholm, Sweden"
+      year: "2025"
+    - title: "ICML 2025"
+      location: "Vancouver, Canada"
+      year: "2025"
+    - title: "EUROPT 2025"
+      institution: "University of Southampton"
+      location: "Southampton, UK"
+      year: "2025"
+    - title: "DOML 2025"
+      institution: "Research Institute for Mathematical Sciences (RIMS)"
+      location: "Kyoto, Japan"
+      year: "2025"
+    - title: "COATWORK 2024"
+      institution: "Zuse Institute Berlin"
+      location: "Berlin, Germany"
+      year: "2024"
+
+- title: Invited Talks & Seminars
+  type: time_table
+  contents:
+    - title: "Boscia.jl and the Optimal Experiment Design Problem"
+      institution: "IOL Seminar, Zuse Institute Berlin"
+      location: "Berlin, Germany"
+      year: "June 2025"
+      linkitems:
+        - linkname: "Slides"s
+          link: "/assets/pdf/IOL_Semeniar_June_2025.pdf"
+    - title: "Solving the Optimal Design Problem with Mixed-Integer Convex Methods"
+      institution: "POLARIS Seminar, Laboratoire d'Informatique de Grenoble (LIG)"
+      location: "Grenoble, France"
+      year: "November 2024"
+      linkitems:
+        - linkname: "Slides"
+          link: "/assets/pdf/OEDP_Talk_LIG.pdf"
+    - title: "Solving the Optimal Design Problem with Mixed-Integer Convex Methods"
+      institution: "Research Seminar NASPDE Group, Freie Universität Berlin
+      location: "Berlin, Germany"
+      year: "July 2024"
+      linkitems:
+        - linkname: "Slides"
+          link: "/assets/pdf/Talk_Schillings_Research_Seminar.pdf"
+    - title: "Solving the Optimal Design Problem with Mixed-Integer Convex Methods"
+      institution: "Math+ Spotlight"
+      location: "Berlin, Germany"
+      year: "May 2024"
+      linkitems:
+        - linkname: "Slides"
+          link: "/assets/pdf/Math__Spotlight_Talk.pdf"
+
+- title: Research Stays
+  type: time_table
+  contents:
+    - title: "Visiting Researcher"
+      institution: "Université Grenoble Alpes, Inria, Labotoire d'Informatique de Grenoble (LIG)"
+      location: "Grenoble"
+      year: "2025"
+      description:
+        - "Hosted by Dr. Mathieu Besançon"
+        - "July - August 2025"
+    - title: "Visiting Researcher"
+      institution: "The Institute of Statistical Mathematics (ISM)"
+      location: "Tachikawa, Tokyo, Japan"
+      year: "2025"
+      description:
+        - "Hosted by Dr. Bruno F. Lourenço"
+        - "May 2020"
+    - title: "Visiting Researcher"
+      institution: "Université Grenoble Alpes, Inria, Labotoire d'Informatique de Grenoble (LIG)"
+      location: "Grenoble"
+      year: "2024"
+      description:
+        - "Hosted by Dr. Mathieu Besançon"
+        - "October - November 2024"
+
