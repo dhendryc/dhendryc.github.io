@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: page
 permalink: /talks/
 title: talks & activities
 description: Conference and seminar talks, as well as conferences and workshops attended.
