@@ -18,7 +18,7 @@
         - "<strong>Type:</strong>  Poster"
       linkitems:
         - linkname: "Poster PDF"
-          link: "/assets/pdf/ICML-poster.pdf"
+          link: "/assets/pdf/ICML_poster.pdf"
     - title: "Solving the Optimal Design Problem with Mixed-Integer Convex Methods"
       institution: "EUROPT 2025"
       location: "Southampton, UK"
@@ -88,8 +88,8 @@
       location: "Berlin, Germany"
       year: "June 2025"
       linkitems:
-        - linkname: "Slides"s
-          link: "/assets/pdf/IOL_Semeniar_June_2025.pdf"
+        - linkname: "Slides"
+          link: "/assets/pdf/IOL_Seminar_June_2025.pdf"
     - title: "Solving the Optimal Design Problem with Mixed-Integer Convex Methods"
       institution: "POLARIS Seminar, Laboratoire d'Informatique de Grenoble (LIG)"
       location: "Grenoble, France"
@@ -98,7 +98,7 @@
         - linkname: "Slides"
           link: "/assets/pdf/OEDP_Talk_LIG.pdf"
     - title: "Solving the Optimal Design Problem with Mixed-Integer Convex Methods"
-      institution: "Research Seminar NASPDE Group, Freie Universität Berlin
+      institution: "Research Seminar NASPDE Group, Freie Universität Berlin"
       location: "Berlin, Germany"
       year: "July 2024"
       linkitems:
