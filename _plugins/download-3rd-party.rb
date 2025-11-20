@@ -9,7 +9,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
   font_file_types = ['otf', 'ttf', 'woff', 'woff2']
   image_file_types = ['.gif', '.jpg', '.jpeg', '.png', '.webp']
 
-  def download_and_change_rule_set_url(rule_set, rule, dest, dirname, config, file_types)
+  def download_and_change_rule_set_url(rule_set, rule, dest, dirname, config, file_types, base_url = nil)
     # check if the rule has a url
     if rule_set[rule].include?('url(')
       # get the file url
@@ -25,8 +25,14 @@ Jekyll::Hooks.register :site, :after_init do |site|
       # verify if the file is of the correct type
       if file_name.end_with?(*file_types)
         # fix the url if it is not an absolute url
-        unless url.start_with?('https://')
-          url = URI.join(url, url).to_s
+        unless url.start_with?('https://') || url.start_with?('http://')
+          if base_url
+            url = URI.join(base_url, url).to_s
+          else
+            # Skip if we can't resolve relative URL and no base URL provided
+            puts "Warning: Skipping relative URL #{url} - no base URL provided"
+            return
+          end
         end
 
         # download the file
@@ -155,7 +161,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
       # get the font-face rules
       css.each_rule_set do |rule_set|
         # check if the rule set has a url
-        download_and_change_rule_set_url(rule_set, 'src', File.join(dest, 'fonts'), File.join(lib_name, 'fonts'), config, file_types)
+        download_and_change_rule_set_url(rule_set, 'src', File.join(dest, 'fonts'), File.join(lib_name, 'fonts'), config, file_types, url)
       end
 
       # save the modified css file
