@@ -1,34 +1,44 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Pokutta":
+  - firstname: ["Sebastian"]
+    url: https://pokutta.com
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Spiegel":
+  - firstname: ["Christoph"]
+    url: http://christophspiegel.berlin/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Sharma":
+  - firstname: ["Kartikey"]
+    url: https://kartikeyrinwa.github.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Roux":
+  - firstname: ["Christophe"]
+    url: http://christopheroux.de/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Martínez-Rubio":
+  - firstname: ["David"]
+    url: https://damaru2.github.io
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Wirth":
+  - firstname: ["Elias"]
+    url: https://elwirth.github.io
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Besançon":
+  - firstname: ["Mathieu"]
+    url: https://matbesancon.xyz
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Troppens":
+  - firstname: ["Hannah"]
+    url: https://www.linkedin.com/in/hannah-troppens-b51a9a10b/?originalSubdomain=de
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Mexi":
+  - firstname: [Gioni]
+    url: https://gionimexi.com
+
+"Designolle":
+  - firstname: ["Sébastien"]
+    url: https://sebastiendesignolle.github.io
+
+"Xiao":
+  - firstname: ["Wenjie"]
+    url: https://iol.zib.de/team/wenjie-xiao.html
+
