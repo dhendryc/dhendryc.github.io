@@ -24,8 +24,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-talks-amp-activities",
-          title: "talks &amp; activities",
-          description: "Conference and seminar talks, as well as conferences and workshops attended.",
+          title: "Talks &amp; Activities",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
