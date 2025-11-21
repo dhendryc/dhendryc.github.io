@@ -6,6 +6,7 @@ title: Talks & Activities
 nav: true
 nav_order: 3
 title_class: text-center
+show_divider: true
 ---
 
 <!-- _pages/talks.md -->
