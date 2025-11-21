@@ -184,6 +184,10 @@ exclude:
   - _pages/about_einstein.md
   # Temporarily hidden pages (remove from this list to re-enable):
   - _pages/blog.md
+  # Exclude Twitter post that causes SSL errors during local build:
+  - _posts/2020-09-28-twitter.md
+  # Exclude Jupyter notebook that causes conversion errors:
+  - assets/jupyter/
   - _pages/projects.md
   - _pages/repositories.md
   - _pages/teaching.md
