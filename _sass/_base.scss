@@ -595,6 +595,14 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+  
+  // Color all post titles with theme color (except about page)
+  color: var(--global-theme-color);
+  
+  // Exclude about page title from theme color
+  &.about-page-title {
+    color: inherit;
+  }
 }
 
 .post-list {

@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /talks/
-title: talks & activities
-description: Conference and seminar talks, as well as conferences and workshops attended.
+title: Talks & Activities
+#description: Conference and seminar talks, as well as conferences and workshops attended.
 nav: true
 nav_order: 3
 title_class: text-center
@@ -14,7 +14,7 @@ title_class: text-center
 {% if talks_section %}
 {% assign talks_list = talks_section.contents %}
 {% if talks_list and talks_list.size > 0 %}
-### talks and posters
+### Talks and posters
 {% for activity in talks_list %}
 {% assign type_line = activity.description | first | default: '' | strip_html | strip %}
 {% assign cleaned_type = type_line | remove: 'Type:' | strip %}
@@ -29,7 +29,7 @@ title_class: text-center
 {% if events_section %}
 {% assign events_list = events_section.contents %}
 {% if events_list and events_list.size > 0 %}
-### event participation
+### Event participation
 {% for activity in events_list %}
 * {{ activity.year }} • **{{ activity.title }}**{% if activity.institution %}, {{ activity.institution }}{% endif %}{% if activity.location %}, {{ activity.location }}{% endif %}
 {% endfor %}
@@ -40,7 +40,7 @@ title_class: text-center
 {% if seminars_section %}
 {% assign seminars_list = seminars_section.contents %}
 {% if seminars_list and seminars_list.size > 0 %}
-### seminar talks
+### Seminar talks
 {% for activity in seminars_list %}
 * {{ activity.year }} • **{{ activity.institution }}**{% if activity.location %}, {{ activity.location }}{% endif %}  
   {% if activity.linkitems %}
@@ -53,7 +53,7 @@ title_class: text-center
 {% if stays_section %}
 {% assign stays_list = stays_section.contents %}
 {% if stays_list and stays_list.size > 0 %}
-### research stays
+### Research stays
 {% for stay in stays_list %}
 * {{ stay.year }} • **{{ stay.institution }}**{% if stay.location %}, {{ stay.location }}{% endif %}  
   {% if stay.description %}{{ stay.description | join: ' • ' }}{% endif %}
