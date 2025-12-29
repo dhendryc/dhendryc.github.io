@@ -1,20 +1,28 @@
 metadata:
-  last_updated: '2025-11-26'
+  last_updated: '2025-12-29'
 papers:
   SykPqXAAAAAJ:2osOgNQ5qMEC:
-    citations: 6
+    citations: 7
     title: Secant Line Search for Frank-Wolfe Algorithms
     year: '2025'
   SykPqXAAAAAJ:9yKSN-GCB0IC:
-    citations: 7
+    citations: 8
     title: Improved algorithms and novel applications of the FrankWolfe. jl library
+    year: '2025'
+  SykPqXAAAAAJ:Tyk-4Ss8FVUC:
+    citations: 0
+    title: 'SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale'
     year: '2025'
   SykPqXAAAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: A Frank-Wolfe-based primal heuristic for quadratic mixed-integer optimization
     year: '2025'
+  SykPqXAAAAAJ:Y0pCki6q_DkC:
+    citations: 0
+    title: 'Graph Isomorphism: Mixed-Integer Convex Optimization from First-Order Methods'
+    year: '2025'
   SykPqXAAAAAJ:d1gkVwhDpl0C:
-    citations: 18
+    citations: 19
     title: Solving the optimal experiment design problem with mixed-integer convex methods
     year: '2023'
   SykPqXAAAAAJ:qjMakFHDy7sC:
@@ -26,7 +34,7 @@ papers:
     title: Network Design for the Traffic Assignment Problem with Mixed-Integer Frank-Wolfe
     year: '2024'
   SykPqXAAAAAJ:u5HHmVD_uO8C:
-    citations: 11
+    citations: 13
     title: Convex mixed-integer optimization with Frank-Wolfe methods
     year: '2022'
   SykPqXAAAAAJ:zYLM7Y9cAGgC:
