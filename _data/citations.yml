@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-01-09'
+  last_updated: '2026-02-23'
 papers:
   SykPqXAAAAAJ:2osOgNQ5qMEC:
-    citations: 7
-    title: Secant Line Search for Frank-Wolfe Algorithms
+    citations: 9
+    title: Secant line search for Frank-Wolfe algorithms
     year: '2025'
   SykPqXAAAAAJ:9yKSN-GCB0IC:
-    citations: 8
+    citations: 10
     title: Improved algorithms and novel applications of the FrankWolfe. jl library
     year: '2025'
   SykPqXAAAAAJ:Tyk-4Ss8FVUC:
@@ -22,7 +22,7 @@ papers:
     title: 'Graph Isomorphism: Mixed-Integer Convex Optimization from First-Order Methods'
     year: '2025'
   SykPqXAAAAAJ:d1gkVwhDpl0C:
-    citations: 20
+    citations: 24
     title: Solving the optimal experiment design problem with mixed-integer convex methods
     year: '2023'
   SykPqXAAAAAJ:qjMakFHDy7sC:
@@ -31,12 +31,12 @@ papers:
     year: '2021'
   SykPqXAAAAAJ:u-x6o8ySG0sC:
     citations: 4
-    title: Network Design for the Traffic Assignment Problem with Mixed-Integer Frank-Wolfe
+    title: Network design for the traffic assignment problem with mixed-integer Frank-Wolfe
     year: '2024'
   SykPqXAAAAAJ:u5HHmVD_uO8C:
-    citations: 12
-    title: Convex mixed-integer optimization with Frank-Wolfe methods
-    year: '2022'
+    citations: 14
+    title: "Convex mixed-integer optimization with Frank\u2013Wolfe methods: D. Hendrych et al."
+    year: '2025'
   SykPqXAAAAAJ:zYLM7Y9cAGgC:
     citations: 0
     title: 'Boscia. jl: A review and tutorial'
