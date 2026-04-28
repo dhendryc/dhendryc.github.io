@@ -14,6 +14,10 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
+  {% if page.show_divider %}
+    <hr />
+  {% endif %}
+
   <article>
     {{ content }}
   </article>
