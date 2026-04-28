@@ -798,9 +798,8 @@ footer.sticky-bottom {
           }
         }
 
-        > em {
-          border-bottom: 1px solid;
-          font-style: normal;
+        > u {
+          text-decoration: underline;
         }
 
         > span.more-authors {
