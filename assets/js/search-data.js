@@ -10,25 +10,32 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-cv",
-          title: "CV",
+          title: "cv",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-publications",
-          title: "Publications",
+          title: "publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-talks-amp-activities",
-          title: "Talks &amp; Activities",
+          title: "talks &amp; activities",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
+          },
+        },{id: "nav-team",
+          title: "team",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/https:/iol.zib.de/research/iol-opt.html";
           },
         },{id: "post-a-post-with-plotly-js",
         
