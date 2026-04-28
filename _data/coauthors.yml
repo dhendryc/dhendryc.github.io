@@ -41,4 +41,27 @@
 "Xiao":
   - firstname: ["Wenjie"]
     url: https://iol.zib.de/team/wenjie-xiao.html
+  
+"Zimmer": 
+  - firstname: ["Max"]
+    url: https://maxzimmer.org
 
+"Gelß":
+  - firstname: ["Patrick"]
+    url: https://patrickgelss.com/HOME/
+
+"Wagner":
+  - firstname: ["Moritz"]
+    url: https://iol.zib.de/team/moritz-wagner.html
+
+"Klus":
+  - firstname: ["Stefan"]
+    url: https://researchportal.hw.ac.uk/en/persons/stefan-klus/
+
+"Pellteri":
+  - firstname: ["Nico"]
+    url: https://www.pelleriti.org
+
+"Halbey":
+  - firstname: ["Jannis"]
+    url: https://iol.zib.de/team/jannis-halbey.html
