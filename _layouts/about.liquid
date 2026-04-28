@@ -21,7 +21,7 @@ layout: default
           {% endif %}
           <div class="clearfix">{{ content }}</div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 profile">
           {% if page.profile.image %}
             {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
             {% if page.profile.image_circular %}
