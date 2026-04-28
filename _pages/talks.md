@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /talks/
-title: Talks & Activities
+title: talks & activities
 #description: Conference and seminar talks, as well as conferences and workshops attended.
 nav: true
 nav_order: 3
