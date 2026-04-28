@@ -1,47 +1,75 @@
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD in Mathematics
-      institution: TU Berlin, Germany
-      year: 2023–present
-      description:
-        - Advised by <a href="http://www.pokutta.com/">Sebastian Pokutta</a>
-    - title: MSc in Mathematics
-      institution: FU Berlin, Germany
-      year: 2020–2023
-      description:
-        - "Thesis: Solving optimal design problems with mixed-integer convex methods"
-        - "Supervisor: Prof. Dr. Sebastian Pokutta, Dr. Mathieu Besançon"
-    - title: Study Year Abroad
-      institution: University of Wollongong, Australia
-      year: 2019-2020
-      description: "Recipient of one-year DAAD scholarship"
-    - title: BSc in Mathematics
-      institution: BHT Berlin, Germany
-      year: 2015–2019
-      description:
-        - "Thesis: Reflection and symmetrical alignment of trimmed NURBS surfaces"
-        - "Supervisor: Prof. Dr. Ute Wagner"
+cv:
+  sections:
+    Education:
+      - studyType: PhD in Mathematics
+        institution: TU Berlin, Germany
+        startDate: 2023
+        endDate: present
+        #location: Berlin, Germany
+        highlights:
+          - Advised by <a href="http://www.pokutta.com/">Sebastian Pokutta</a>
+      - studyType: MSc in Mathematics
+        institution: FU Berlin, Germany
+        startDate: 2020
+        endDate: 2023
+        #location: Berlin, Germany
+        highlights:
+          - "Thesis: Solving optimal design problems with mixed-integer convex methods"
+          - "Supervisors: Prof. Dr. Sebastian Pokutta, Dr. Mathieu Besançon"
+      - studyType: Study Year Abroad
+        institution: University of Wollongong, Australia
+        startDate: 2019
+        endDate: 2020
+        #location: Wollongong, Australia
+        highlights:
+          - Recipient of one-year DAAD scholarship
+      - studyType: BSc in Mathematics
+        institution: BHT Berlin, Germany
+        startDate: 2015
+        endDate: 2019
+        #location: Berlin, Germany
+        highlights:
+          - "Thesis: Reflection and symmetrical alignment of trimmed NURBS surfaces"
+          - "Supervisors: Prof. Dr. Ute Wagner, Günter Sonnenberg"
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Research Area Lead of <a href="https://iol.zib.de/research/iol-opt.html">iol.OPT</a>
-      institution: Continuous Optimization Subgroup, IOL Lab, Zuse Institute Berlin
-      year: 2025–present
-    - title: Doctoral Researcher
-      institution: IOL Lab, Zuse Institute Berlin
-      year: 2023–present
-    - title: Student Research Assistant
-      institution: IOL Lab, Zuse Institute Berlin
-      year: 2021–2023
-    - title: Tutor
-      institution: Berliner Hochschule für Technik, Berlin, Germany
-      year: 2020-2021
-    - title: Software Developer
-      institution: T-Systems on site services GmbH, Wolfsburg, Germany
-      year: 2018-2019
-    - title: Tutor
-      institution: Berliner Hochschule für Technik, Berlin, Germany
-      year: 2016-2018
-
+    Experience:
+      - company: Continuous Optimization Subgroup, IOL Lab, Zuse Institute Berlin
+        position: Research Area Lead of <a href="https://iol.zib.de/research/iol-opt.html">iol.OPT</a>
+        startDate: 2025-01-01
+        #location: Berlin, Germany
+        highlights:
+          - Leading research area on continuous optimization methods
+      - company: IOL Lab, Zuse Institute Berlin
+        position: Doctoral Researcher
+        startDate: 2023-01-01
+        #location: Berlin, Germany
+        highlights:
+          - Research on first-order optimization methods and mixed-integer convex optimization
+      - company: IOL Lab, Zuse Institute Berlin
+        position: Student Research Assistant
+        startDate: 2021-01-01
+        endDate: 2023-01-01
+        #location: Berlin, Germany
+        highlights:
+          - Assisted with research on first-order optimization methods and research software development
+      - company: Berliner Hochschule für Technik, Berlin, Germany
+        position: Tutor
+        startDate: 2020-01-01
+        endDate: 2021-01-01
+        #location: Berlin, Germany
+        highlights:
+          - Teaching mathematics to undergraduate students
+      - company: T-Systems on site services GmbH, Wolfsburg, Germany
+        position: Software Developer
+        startDate: 2018-01-01
+        endDate: 2019-01-01
+        #location: Wolfsburg, Germany
+        highlights:
+          - Software development for computer aided design
+      - company: Berliner Hochschule für Technik, Berlin, Germany
+        position: Tutor
+        startDate: 2016-01-01
+        endDate: 2018-01-01
+        #location: Berlin, Germany
+        highlights:
+          - Teaching mathematics to undergraduate students

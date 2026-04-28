@@ -15,7 +15,7 @@ layout: default
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">
+    <h1 class="post-title {% if page.title_class %}{{ page.title_class }}{% endif %}">
       {{ page.title }}
       {% if page.cv_pdf %}
         <a
@@ -36,6 +36,10 @@ layout: default
       <p class="post-description">{{ page.description }}</p>
     {% endif %}
   </header>
+
+  {% if page.show_divider %}
+    <hr />
+  {% endif %}
 
   <article>
     <div class="cv">

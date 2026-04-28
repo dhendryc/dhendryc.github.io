@@ -47,6 +47,16 @@ p.location {
   white-space: nowrap;
 }
 
+p.location:empty {
+  display: none;
+}
+
+p.location {
+  &:has(> i:only-child) {
+    display: none;
+  }
+}
+
 i.iconlocation {
   color: var(--global-theme-color);
   font-size: 0.8rem;
