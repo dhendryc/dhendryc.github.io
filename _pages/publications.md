@@ -11,7 +11,9 @@ nav_order: 2
 <!-- _pages/publications.md -->
 
 {%- comment -%}
+
 <!-- Bibsearch Feature -->
+
 {% include bib_search.liquid %}
 {%- endcomment -%}
 

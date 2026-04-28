@@ -56,7 +56,6 @@
         - linkname: "Poster PDF"
           link: "/assets/pdf/Boscia_Poster_I.pdf"
 
-
 - title: Attended Events
   type: time_table
   contents:
@@ -154,4 +153,3 @@
       description:
         - "Hosted by Dr. Mathieu Besançon"
         - "October - November 2024"
-
