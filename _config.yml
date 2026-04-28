@@ -3,6 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
+<<<<<<< HEAD
 first_name: Deborah
 middle_name: 
 last_name: Hendrych
@@ -22,6 +23,27 @@ baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: /legal-notice/ # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 privacy_policy_path: /privacy-policy/ # set to path to include privacy policy link in the footer
+=======
+first_name: You
+middle_name: R.
+last_name: Name
+contact_note: >
+  You can even add a little note about which of these is the best way to reach you.
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+
+url: https://alshedivat.github.io # the base hostname & protocol for your site
+baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
+last_updated: false # set to true if you want to display last updated in the footer
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+>>>>>>> upstream/main
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
@@ -36,6 +58,16 @@ repo_trophies:
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
+<<<<<<< HEAD
+=======
+# External service URLs for repository page
+# To use a different instance or service for displaying GitHub stats and trophies,
+# update these URLs. These are used in the repository templates.
+external_services:
+  github_readme_stats_url: https://github-readme-stats.vercel.app
+  github_profile_trophy_url: https://github-profile-trophy.vercel.app
+
+>>>>>>> upstream/main
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
@@ -48,7 +80,11 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
+<<<<<<< HEAD
 search_enabled: false # set to true to re-enable the search menu
+=======
+search_enabled: true
+>>>>>>> upstream/main
 socials_in_search: true
 posts_in_search: true
 bib_search: true
@@ -56,8 +92,11 @@ bib_search: true
 # Dimensions
 max_width: 930px
 
+<<<<<<< HEAD
 # TODO: add layout settings (single page vs. multi-page)
 
+=======
+>>>>>>> upstream/main
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
@@ -86,8 +125,13 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 blog_name: blog # blog_name will be displayed in your blog page
 blog_description: paper TLDRs in optimization
+=======
+blog_name: al-folio # blog_name will be displayed in your blog page
+blog_description: a simple whitespace theme for academics
+>>>>>>> upstream/main
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -203,7 +247,9 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-3rd-party-libraries
   - jekyll-archives-v2
+  - jekyll-cache-bust
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -215,6 +261,7 @@ plugins:
   - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap
+  - jekyll-socials
   - jekyll-tabs
   - jekyll-terser
   - jekyll-toc
@@ -315,10 +362,14 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
+    dimensions,
+    eprint,
     google_scholar_id,
+    hal,
     html,
     inspirehep_id,
     pdf,
+    pmid,
     poster,
     preview,
     selected,
@@ -367,7 +418,7 @@ imagemagick:
     - ".tiff"
     - ".gif"
   output_formats:
-    webp: "-quality 85"
+    webp: "-auto-orient -quality 85"
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
@@ -387,6 +438,7 @@ enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
+#enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (https://github.com/orestbida/cookieconsent)
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
@@ -593,6 +645,14 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/swiper@11.1.0/swiper-element-bundle.min.js.map"
     version: "11.0.5"
+  #vanilla-cookieconsent:
+  #  integrity:
+  #    css: "sha256-ygRrixsQlBByBZiOcJamh7JByO9fP+/l5UPtKNJmRsE="
+  #    js: "sha256-vG4vLmOB/AJbJ6awr7Wg4fxonG+fxAp4cIrbIFTvRXU="
+  #  url:
+  #    css: "https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@{{version}}/dist/cookieconsent.css"
+  #    js: "https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@{{version}}/dist/cookieconsent.umd.js"
+  #  version: "3.1.0"
   vega:
     integrity:
       js: "sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs="

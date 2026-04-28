@@ -76,8 +76,6 @@ jobs:
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
-      - name: Install dependencies (verbose)
-        run: bundle install --verbose
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:

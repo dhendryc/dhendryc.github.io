@@ -1,12 +1,14 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
-// Toggle between light and dark theme settings.
+// Toggle through light, dark, and system theme settings.
 let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
-  if (themeSetting == "light") {
+  if (themeSetting == "system") {
+    setThemeSetting("light");
+  } else if (themeSetting == "light") {
     setThemeSetting("dark");
   } else {
-    setThemeSetting("light");
+    setThemeSetting("system");
   }
 };
 
@@ -27,6 +29,8 @@ let applyTheme = () => {
   setHighlight(theme);
   setGiscusTheme(theme);
   setSearchTheme(theme);
+  setCookieConsentTheme(theme);
+  updateCalendarUrl();
 
   // if mermaid is not defined, do nothing
   if (typeof mermaid !== "undefined") {
@@ -242,6 +246,18 @@ let setSearchTheme = (theme) => {
   }
 };
 
+let setCookieConsentTheme = (theme) => {
+  // Sync cookie consent modal with site's theme
+  // The cookie consent library supports dark mode via the cc--darkmode class
+  var htmlElement = document.documentElement;
+
+  if (theme === "dark") {
+    htmlElement.classList.add("cc--darkmode");
+  } else {
+    htmlElement.classList.remove("cc--darkmode");
+  }
+};
+
 let transTheme = () => {
   document.documentElement.classList.add("transition");
   window.setTimeout(() => {
@@ -249,19 +265,30 @@ let transTheme = () => {
   }, 500);
 };
 
-// Determine the expected state of the theme toggle, which can be "dark" or "light". Default is "light".
+// Determine the expected state of the theme toggle, which can be "dark", "light", or
+// "system". Default is "system".
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
-  if (themeSetting != "dark" && themeSetting != "light") {
-    themeSetting = "light";
+  if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
+    themeSetting = "system";
   }
   return themeSetting;
 };
 
-// Determine the computed theme, which can be "dark" or "light".
+// Determine the computed theme, which can be "dark" or "light". If the theme setting is
+// "system", the computed theme is determined based on the user's system preference.
 let determineComputedTheme = () => {
   let themeSetting = determineThemeSetting();
-  return themeSetting;
+  if (themeSetting == "system") {
+    const userPref = window.matchMedia;
+    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
+      return "dark";
+    } else {
+      return "light";
+    }
+  } else {
+    return themeSetting;
+  }
 };
 
 let initTheme = () => {
@@ -278,5 +305,38 @@ let initTheme = () => {
     });
   });
 
-  // System theme preference listener removed - only light/dark modes supported
+  // Add event listener to the system theme preference change.
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
+    applyTheme();
+  });
+};
+
+// Get the appropriate background color for Google Calendar based on current theme
+let getCalendarBgColor = () => {
+  let theme = determineComputedTheme();
+  return theme === "dark" ? "333333" : "f9f9f9";
+};
+
+// Get the Google Calendar embed URL with the correct background color
+let getCalendarUrl = (calendarId, timezone = "UTC") => {
+  const baseUrl = "https://calendar.google.com/calendar/embed";
+  const params = new URLSearchParams({
+    src: calendarId,
+    ctz: timezone,
+    mode: "WEEK",
+    showTitle: "0",
+    showPrint: "0",
+    showCalendars: "0",
+    showTabs: "0",
+    bgcolor: getCalendarBgColor(),
+  });
+  return `${baseUrl}?${params.toString()}`;
+};
+
+// Update the calendar iframe src to apply theme changes
+let updateCalendarUrl = () => {
+  const iframe = document.getElementById("calendar-iframe");
+  if (iframe && iframe.dataset.calendarId) {
+    iframe.src = getCalendarUrl(iframe.dataset.calendarId, iframe.dataset.timezone || "UTC");
+  }
 };
