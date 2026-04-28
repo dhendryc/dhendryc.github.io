@@ -87,6 +87,13 @@
 - title: Seminar Talks
   type: time_table
   contents:
+    - title: "Convex mixed-integer optimization with Frank-Wolfe methods"
+      institution: "Department of Mathematics, National University of Singapore"
+      location: "Singapore"
+      year: "January 2026"
+      linkitems:
+        - linkname: "Slides"
+          link: "/assets/pdf/NUS_presentation.pdf"
     - title: "Boscia.jl and the Optimal Experiment Design Problem"
       institution: "IOL Seminar, Zuse Institute Berlin"
       location: "Berlin, Germany"
@@ -119,6 +126,13 @@
 - title: Research Stays
   type: time_table
   contents:
+    - title: "Visiting Researcher"
+      institution: "Department of Mathematics, National University of Singapore"
+      location: "Singapore"
+      year: "2026"
+      description:
+        - "Hosted by Prof. Dr. Toh Kim-Chuan"
+        - "January 2026"
     - title: "Visiting Researcher"
       institution: "Université Grenoble Alpes, Inria, Labotoire d'Informatique de Grenoble (LIG)"
       location: "Grenoble"
