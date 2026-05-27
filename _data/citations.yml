@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-04-10'
+  last_updated: '2026-05-27'
 papers:
   SykPqXAAAAAJ:2osOgNQ5qMEC:
     citations: 9
     title: Secant line search for Frank-Wolfe algorithms
     year: '2025'
   SykPqXAAAAAJ:9yKSN-GCB0IC:
-    citations: 10
+    citations: 11
     title: Improved algorithms and novel applications of the FrankWolfe. jl library
     year: '2025'
   SykPqXAAAAAJ:Tyk-4Ss8FVUC:
@@ -22,7 +22,7 @@ papers:
     title: 'Graph Isomorphism: Mixed-Integer Convex Optimization from First-Order Methods'
     year: '2025'
   SykPqXAAAAAJ:d1gkVwhDpl0C:
-    citations: 24
+    citations: 25
     title: Solving the optimal experiment design problem with mixed-integer convex methods
     year: '2023'
   SykPqXAAAAAJ:qjMakFHDy7sC:
