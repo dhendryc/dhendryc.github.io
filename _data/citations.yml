@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-27'
+  last_updated: '2026-06-03'
 papers:
   SykPqXAAAAAJ:2osOgNQ5qMEC:
     citations: 9
@@ -22,7 +22,7 @@ papers:
     title: 'Graph Isomorphism: Mixed-Integer Convex Optimization from First-Order Methods'
     year: '2025'
   SykPqXAAAAAJ:d1gkVwhDpl0C:
-    citations: 25
+    citations: 26
     title: Solving the optimal experiment design problem with mixed-integer convex methods
     year: '2023'
   SykPqXAAAAAJ:qjMakFHDy7sC:
