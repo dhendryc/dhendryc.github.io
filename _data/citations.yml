@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-03'
+  last_updated: '2026-06-08'
 papers:
   SykPqXAAAAAJ:2osOgNQ5qMEC:
     citations: 9
@@ -17,10 +17,14 @@ papers:
     citations: 0
     title: A Frank-Wolfe-based primal heuristic for quadratic mixed-integer optimization
     year: '2025'
+  SykPqXAAAAAJ:W7OEmFMy1HYC:
+    citations: 0
+    title: Exploiting Combinatorial Algorithms within Convex Mixed-Integer Optimization
+    year: Unknown Year
   SykPqXAAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: 'Graph Isomorphism: Mixed-Integer Convex Optimization from First-Order Methods'
-    year: '2025'
+    year: '2026'
   SykPqXAAAAAJ:d1gkVwhDpl0C:
     citations: 26
     title: Solving the optimal experiment design problem with mixed-integer convex methods
@@ -34,7 +38,7 @@ papers:
     title: Network design for the traffic assignment problem with mixed-integer Frank-Wolfe
     year: '2024'
   SykPqXAAAAAJ:u5HHmVD_uO8C:
-    citations: 15
+    citations: 16
     title: "Convex mixed-integer optimization with Frank\u2013Wolfe methods: D. Hendrych et al."
     year: '2025'
   SykPqXAAAAAJ:zYLM7Y9cAGgC:
