@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-06-24'
 papers:
   SykPqXAAAAAJ:2osOgNQ5qMEC:
     citations: 9
     title: Secant line search for Frank-Wolfe algorithms
     year: '2025'
   SykPqXAAAAAJ:9yKSN-GCB0IC:
-    citations: 11
+    citations: 12
     title: Improved algorithms and novel applications of the FrankWolfe. jl library
     year: '2025'
   SykPqXAAAAAJ:Tyk-4Ss8FVUC:
-    citations: 0
+    citations: 1
     title: 'SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale'
     year: '2025'
   SykPqXAAAAAJ:UeHWp8X0CEIC:
