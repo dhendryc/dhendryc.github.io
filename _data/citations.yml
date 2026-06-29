@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-24'
+  last_updated: '2026-06-29'
 papers:
   SykPqXAAAAAJ:2osOgNQ5qMEC:
     citations: 9
@@ -38,7 +38,7 @@ papers:
     title: Network design for the traffic assignment problem with mixed-integer Frank-Wolfe
     year: '2024'
   SykPqXAAAAAJ:u5HHmVD_uO8C:
-    citations: 16
+    citations: 17
     title: "Convex mixed-integer optimization with Frank\u2013Wolfe methods: D. Hendrych et al."
     year: '2025'
   SykPqXAAAAAJ:zYLM7Y9cAGgC:
