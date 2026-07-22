@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-06-29'
+  last_updated: '2026-07-22'
 papers:
   SykPqXAAAAAJ:2osOgNQ5qMEC:
     citations: 9
     title: Secant line search for Frank-Wolfe algorithms
     year: '2025'
   SykPqXAAAAAJ:9yKSN-GCB0IC:
-    citations: 12
+    citations: 13
     title: Improved algorithms and novel applications of the FrankWolfe. jl library
     year: '2025'
   SykPqXAAAAAJ:Tyk-4Ss8FVUC:
-    citations: 1
+    citations: 2
     title: 'SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale'
     year: '2025'
   SykPqXAAAAAJ:UeHWp8X0CEIC:
@@ -38,7 +38,7 @@ papers:
     title: Network design for the traffic assignment problem with mixed-integer Frank-Wolfe
     year: '2024'
   SykPqXAAAAAJ:u5HHmVD_uO8C:
-    citations: 17
+    citations: 18
     title: "Convex mixed-integer optimization with Frank\u2013Wolfe methods: D. Hendrych et al."
     year: '2025'
   SykPqXAAAAAJ:zYLM7Y9cAGgC:
