@@ -1,6 +1,44 @@
 - title: Talks & Posters
   type: time_table
   contents:
+    - title: "Recent improvements on the integer Frank-Wolfe framework"
+      institution: "ICOML 2026"
+      location: "Taipei, Taiwan"
+      year: "2026"
+      description:
+        - "<strong>Type:</strong> Talk"
+      linkitems:
+        - linkname: "Slides"
+          link: "/assets/pdf/DOML_ICOML_poster.pdf"
+    - title: "Recent improvements on the integer Frank-Wolfe framework"
+      institution: "DOML 2026"
+      location: "Tokyo, Japan"
+      year: "2026"
+      description:
+        - "<strong>Type:</strong> Talk"
+      linkitems:
+        - linkname: "Slides"
+          link: "/assets/pdf/DOML_ICOML_poster.pdf"
+    - title: "Integer Frank-Wolfe for Optimal Experiment Design"
+      institution: "SIAMOP 2026"
+      location: "Edinburgh, UK"
+      year: "2026"
+      description:
+        - "<strong>Type:</strong> Talk"
+      linkitems:
+        - linkname: "Slides"
+          link: "/assets/pdf/SIAMOP_2026.pdf"
+    - title: "First-order convex (mixed-integer) optimization: FrankWolfe.jl and Boscia.jl"
+      institution: "JuMP-dev Workshop 2026"
+      location: "Edinburgh, UK"
+      year: "2026"
+      description:
+        - "<strong>Type:</strong> Talk"
+      linkitems:
+        - linkname: "Slides"
+          link: "/assets/pdf/JuMP_dev_presentation.pdf"
+        - linkname: "Video"
+          link: https://www.youtube.com/watch?v=aeCucIGKhzE
     - title: "Solving the Optimal Design Problem with Mixed-Integer Convex Methods"
       institution: "STOGO 2025"
       location: "Stockholm, Sweden"
@@ -59,6 +97,22 @@
 - title: Attended Events
   type: time_table
   contents:
+    - title: "International Conference on Optimization and Machine Learning (ICOML) 2026"
+      institution: "National Taiwan Normal University"
+      location: "Taipei, Taiwan"
+      year: "2026"
+    - title: "Discrete Optimization and Machine Learning (DOML) 2026"
+      institution: "Institute of Science Tokyo"
+      location: "Tokyo, Japan"
+      year: "2026"
+    - title: "SIAMOP Conference 2026"
+      institution: "University of Edinburgh"
+      location: "Edinburgh, UK"
+      year: "2026"
+    - title: "JuMP-dev Workshop 2026"
+      institution: "University of Edinburgh"
+      location: "Edinburgh, UK"
+      year: "2026"
     - title: "Global Optimization Workshop (STOGO) 2025"
       institution: "KTH Royal Institute of Technology"
       location: "Stockholm, Sweden"
