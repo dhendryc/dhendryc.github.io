@@ -6,18 +6,18 @@
       location: "Taipei, Taiwan"
       year: "2026"
       description:
-        - "<strong>Type:</strong> Talk"
+        - "<strong>Type:</strong> Poster"
       linkitems:
-        - linkname: "Slides"
+        - linkname: "Poster PDF"
           link: "/assets/pdf/DOML_ICOML_poster.pdf"
     - title: "Recent improvements on the integer Frank-Wolfe framework"
       institution: "DOML 2026"
       location: "Tokyo, Japan"
       year: "2026"
       description:
-        - "<strong>Type:</strong> Talk"
+        - "<strong>Type:</strong> Poster"
       linkitems:
-        - linkname: "Slides"
+        - linkname: "Poster PDF"
           link: "/assets/pdf/DOML_ICOML_poster.pdf"
     - title: "Integer Frank-Wolfe for Optimal Experiment Design"
       institution: "SIAMOP 2026"
