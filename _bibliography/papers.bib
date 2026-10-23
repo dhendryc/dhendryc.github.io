@@ -2,7 +2,7 @@
 % ==============================
 % 2026
 % ==============================
-@misc{2026_HendrychBesanconPokutta_DiscreteEigenvalueOptimization_2608-27024,
+@article{2026_HendrychBesanconPokutta_DiscreteEigenvalueOptimization_2608-27024,
   archiveprefix = {arXiv},
   eprint = {2608.27024},
   primaryclass = {math.OC},
@@ -25,6 +25,10 @@
   journal={Proceedings of the International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research},
   year={2026},
   abbr={CPAIOR26},
+  editor={Guns, Tias},
+  booktitle={Integration of Constraint Programming, Artificial Intelligence, and Operations Research},
+  publisher={Springer Nature Switzerland},
+  pages={614--630},
   archiveprefix = {arXiv},
   eprint = {2512.17417},
   primaryclass = {math.OC},
@@ -33,6 +37,23 @@
   bibtex_show={true},
   selected={false},
   tags={graph isomorphism, mixed-integer optimization, first-order methods},
+}
+
+@article{2025_MexiEtAl_Frankwolfeheuristic_2508-01299,
+  archiveprefix = {arXiv},
+  eprint = {2508.01299},
+  primaryclass = {math.OC},
+  year = {2026},
+  journal = {Mathematical Programming Computation},
+  doi = {10.1007/s12532-026-00340-3},
+  pdf = {https://link.springer.com/article/10.1007/s12532-026-00340-3},
+  abstract={We propose a primal heuristic for quadratic mixed-integer problems. Our method extends the Boscia framework -- originally a mixed-integer convex solver leveraging a Frank-Wolfe-based branch-and-bound approach -- to address nonconvex quadratic objective and constraints. We reformulate nonlinear constraints, introduce preprocessing steps, and a suite of heuristics including rounding strategies, gradient-guided selection, and large neighborhood search techniques that exploit integer-feasible vertices generated during the Frank-Wolfe iterations. Computational results demonstrate the effectiveness of our method in solving challenging MIQCQPs, achieving improvements on QPLIB instances within minutes and winning first place in the Land-Doig MIP Computational Competition 2025.},
+  author = {Mexi, Gioni and Hendrych, Deborah and Designolle, S{\'e}bastien and Besan{\c{c}}on, Mathieu and Pokutta, Sebastian},
+  title = {A {Frank-Wolfe}-based primal heuristic for quadratic mixed-integer optimization},
+  abbr = {MPC},
+  bibtex_show={true},
+  selected={true},
+  tags={Frank-Wolfe, convex optimization, mixed-integer optimization},
 }
 
 % ==============================
@@ -55,10 +76,13 @@
 }
 
 @article{besanccon2025improved,
-  title={Improved algorithms and novel applications of the {FrankWolfe.jl} library},
+  title={Improved {Algorithms and Novel Applications} of the {FrankWolfe.jl} library},
   author={Besan{\c{c}}on, Mathieu and Designolle, S{\'e}bastien and Halbey, Jannis and Hendrych, Deborah and Kuzinowicz, Dominik and Pokutta, Sebastian and Troppens, Hannah and Herrmannsdoerfer, Daniel Viladrich and Wirth, Elias},
   journal={ACM Transactions on Mathematical Software},
   year={2025},
+  volume={51},
+  issue={4},
+  pages={1-33},
   abstract={Frank-Wolfe (FW) algorithms have emerged as an essential class of methods for constrained optimization, especially on large-scale problems. In this paper, we summarize the algorithmic design choices and progress made in the last years of the development of FrankWolfe.jl, a Julia package gathering high-performance implementations of state-of-the-art FW variants. We review key use cases of the library in the recent literature, which match its original dual purpose: first, becoming the de-facto toolbox for practitioners applying FW methods to their problem, and second, offering a modular ecosystem to algorithm designers who experiment with their own variants and implementations of algorithmic blocks. Finally, we demonstrate the performance of several FW variants on important problem classes in several experiments, which we curated in a separate repository for continuous benchmarking.},
   abbr={ACM TOMS},
   bibtex_show={true},
@@ -73,30 +97,13 @@
   archiveprefix = {arXiv},
   eprint = {2511.01479},
   primaryclass = {math.OC},
-  abstract={ixed-integer nonlinear optimization (MINLP) comprises a large class of problems that are challenging to solve and exhibit a wide range of structures. The Boscia framework Hendrych et al. (2025b) focuses on convex MINLP where the nonlinearity appears in the objective only. This paper provides an overview of the framework and practical examples to illustrate its use and customizability. One key aspect is the integration and exploitation of Frank-Wolfe methods as continuous solvers within a branch-and-bound framework, enabling inexact node processing, warm-starting and explicit use of combinatorial structure among others. Three examples illustrate its flexibility, the user control over the optimization process and the benefit of oracle-based access to the objective and its gradient. The aim of this tutorial is to provide readers with an understanding of the main principles of the framework.},
+  abstract={Mixed-integer nonlinear optimization (MINLP) comprises a large class of problems that are challenging to solve and exhibit a wide range of structures. The Boscia framework Hendrych et al. (2025b) focuses on convex MINLP where the nonlinearity appears in the objective only. This paper provides an overview of the framework and practical examples to illustrate its use and customizability. One key aspect is the integration and exploitation of Frank-Wolfe methods as continuous solvers within a branch-and-bound framework, enabling inexact node processing, warm-starting and explicit use of combinatorial structure among others. Three examples illustrate its flexibility, the user control over the optimization process and the benefit of oracle-based access to the objective and its gradient. The aim of this tutorial is to provide readers with an understanding of the main principles of the framework.},
   year={2025},
   pdf={https://arxiv.org/abs/2511.01479},
   abbr={preprint},
   bibtex_show={true},
   selected={false},
   tags={Boscia, Julia, convex optimization, mixed-integer optimization},
-}
-
-@article{2025_MexiEtAl_Frankwolfeheuristic_2508-01299,
-  archiveprefix = {arXiv},
-  eprint = {2508.01299},
-  primaryclass = {math.OC},
-  year = {2026},
-  journal = {Mathematical Programming Computation},
-  doi = {10.1007/s12532-026-00340-3},
-  pdf = {https://link.springer.com/article/10.1007/s12532-026-00340-3},
-  abstract={We propose a primal heuristic for quadratic mixed-integer problems. Our method extends the Boscia framework -- originally a mixed-integer convex solver leveraging a Frank-Wolfe-based branch-and-bound approach -- to address nonconvex quadratic objective and constraints. We reformulate nonlinear constraints, introduce preprocessing steps, and a suite of heuristics including rounding strategies, gradient-guided selection, and large neighborhood search techniques that exploit integer-feasible vertices generated during the Frank-Wolfe iterations. Computational results demonstrate the effectiveness of our method in solving challenging MIQCQPs, achieving improvements on QPLIB instances within minutes and winning first place in the Land-Doig MIP Computational Competition 2025.},
-  author = {Mexi, Gioni and Hendrych, Deborah and Designolle, S{\'e}bastien and Besan{\c{c}}on, Mathieu and Pokutta, Sebastian},
-  title = {A {Frank-Wolfe}-based primal heuristic for quadratic mixed-integer optimization},
-  abbr = {MPC},
-  bibtex_show={true},
-  selected={true},
-  tags={Frank-Wolfe, convex optimization, mixed-integer optimization},
 }
 
 @article{hendrych2023convex,
@@ -120,6 +127,7 @@
   author={Hendrych, Deborah and Besan{\c{c}}on, Mathieu and Mart{\'\i}nez-Rubio, David and Pokutta, Sebastian},
   journal={PMLR},
   year={2025},
+  pages={23005 - 23029},
   abstract={We present a new step-size strategy based on the secant method for Frank-Wolfe algorithms. This strategy, which requires mild assumptions about the function under consideration, can be applied to any Frank-Wolfe algorithm. It is as effective as full line search and, in particular, allows for adapting to the local smoothness of the function, such as in (Pedregosa et al., 2020), but comes with a significantly reduced computational cost, leading to higher effective rates of convergence. We provide theoretical guarantees and demonstrate the effectiveness of the strategy through numerical experiments.},
   abbr={ICML25},
   bibtex_show={true},
@@ -157,7 +165,7 @@
   abstract={We tackle the Optimal Experiment Design Problem, which consists of choosing experiments to run or observations to select from a finite set to estimate the parameters of a system. The objective is to maximize some measure of information gained about the system from the observations, leading to a convex integer optimization problem. We leverage Boscia.jl, a recent algorithmic framework, which is based on a nonlinear branch-and-bound algorithm with node relaxations solved to approximate optimality using Frank-Wolfe algorithms. One particular advantage of the method is its efficient utilization of the polytope formed by the original constraints which is preserved by the method, unlike alternative methods relying on epigraph-based formulations. We assess the method against both generic and specialized convex mixed-integer approaches. Computational results highlight the performance of the proposed method, especially on large and challenging instances.},
   primaryclass = {math.OC},
   author = {Hendrych, Deborah and Besançon, Mathieu and Pokutta, Sebastian},
-  title = {Solving the Optimal Experiment Design Problem with Mixed-integer Convex Methods},
+  title = {Solving the {Optimal Experiment Design Problem} with {Mixed-integer Convex Methods}},
   code = {https://github.com/ZIB-IOL/OptimalDesignWithBoscia},
   pdf = {https://arxiv.org/abs/2312.11200},
   abbr={SEA24},
