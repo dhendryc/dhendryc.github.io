@@ -13,6 +13,8 @@ profile:
   align: left
   image: DF7224_Hendrych_1b.jpg
   image_circular: false # crops the image to make it circular
+  more_info: |
+    <p style="font-size: 0.65rem; line-height: 0.9;">&copy; 2021 Kauffmann Studios</small></p>
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
